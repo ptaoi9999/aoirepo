@@ -1,92 +1,38 @@
 {
-  "name": "Aoi's Repo",
-  "identifier": "com.aoi.repo",
-  "subtitle": "Self-made App Repository for LiveContainer, AltStore, & SideStore",
-  "description": "Welcome to Aoi's Repo! This is a custom AltStore-compatible repository designed to host JIT-enabled applications, emulators, and utility tools for LiveContainer.",
+  "name": "LinkRelay Repo",
+  "identifier": "com.aoi.linkrelay.repo",
+  "subtitle": "Official Repository for LinkRelay",
+  "description": "Dedicated repository for LinkRelay. Sideload the latest version of LinkRelay for LiveContainer, SideStore, and AltStore.",
   "iconURL": "https://raw.githubusercontent.com/aoi/aoirepo/main/assets/repo-icon.png",
   "website": "https://aoi.github.io/aoirepo/",
-  "tintColor": "#9d4edd",
+  "tintColor": "#4f46e5",
   "apps": [
     {
-      "name": "LiveContainer",
-      "bundleIdentifier": "com.knel.lc",
-      "developerName": "knel",
-      "subtitle": "Run iOS apps inside a container",
-      "localizedDescription": "LiveContainer allows you to run iOS apps inside a containerized environment. This allows you to bypass the 3-app sideloading limit and use JIT-enabled apps easily.",
-      "iconURL": "https://raw.githubusercontent.com/aoi/aoirepo/main/assets/icons/livecontainer.png",
-      "tintColor": "#4cc9f0",
+      "name": "LinkRelay",
+      "bundleIdentifier": "com.aoi.LinkRelay",
+      "developerName": "Aoi",
+      "subtitle": "Relay links to designated containers",
+      "localizedDescription": "LinkRelay is a utility application designed to relay links and coordinate URL schemes smoothly inside containerized environments like LiveContainer.",
+      "iconURL": "https://raw.githubusercontent.com/aoi/aoirepo/main/assets/icons/linkrelay.png",
+      "tintColor": "#4f46e5",
       "versions": [
         {
-          "version": "3.3.1",
-          "date": "2026-06-15",
-          "localizedDescription": "Updated LiveContainer with stability fixes and JIT coordination.",
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/v3.3.1/LiveContainer.ipa",
-          "size": 15420000
-        }
-      ]
-    },
-    {
-      "name": "LcInstaller",
-      "bundleIdentifier": "com.github.LcInstaller",
-      "developerName": "LcInstaller Team",
-      "subtitle": "Direct installer for LiveContainer",
-      "localizedDescription": "An helper app designed to simplify adding repositories, browsing, and installing IPAs directly into your LiveContainer instance with one-click setup.",
-      "iconURL": "https://raw.githubusercontent.com/aoi/aoirepo/main/assets/icons/lcinstaller.png",
-      "tintColor": "#ff006e",
-      "versions": [
-        {
-          "version": "1.0.3",
-          "date": "2026-07-02",
-          "localizedDescription": "Fixed bundle identifier resolution issues and added community sources support.",
-          "downloadURL": "https://github.com/haxi0/LcInstaller/releases/download/1.0.3/LcInstaller.ipa",
-          "size": 5420000
-        }
-      ]
-    },
-    {
-      "name": "RetroArch",
-      "bundleIdentifier": "com.libretro.RetroArch",
-      "developerName": "Libretro",
-      "subtitle": "Multi-system game engine emulator",
-      "localizedDescription": "RetroArch is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles using its slick graphical interface.",
-      "iconURL": "https://raw.githubusercontent.com/aoi/aoirepo/main/assets/icons/retroarch.png",
-      "tintColor": "#3a0ca3",
-      "versions": [
-        {
-          "version": "1.19.1",
-          "date": "2026-05-20",
-          "localizedDescription": "Improved core performance and iOS touchscreen controller layouts.",
-          "downloadURL": "https://buildbot.libretro.com/stable/1.19.1/apple/ios-arm64/RetroArch.ipa",
-          "size": 184500000
-        }
-      ]
-    },
-    {
-      "name": "PPSSPP",
-      "bundleIdentifier": "org.ppsspp.ppsspp",
-      "developerName": "Henrik Rydgård",
-      "subtitle": "PSP Emulator",
-      "localizedDescription": "PPSSPP is the original and best PSP emulator for mobile devices. It runs a lot of games, but depending on the power of your device all may not run at full speed.",
-      "iconURL": "https://raw.githubusercontent.com/aoi/aoirepo/main/assets/icons/ppsspp.png",
-      "tintColor": "#0077b6",
-      "versions": [
-        {
-          "version": "1.17.1",
-          "date": "2026-04-10",
-          "localizedDescription": "Fixed rendering issues in various games and optimized JIT compilers.",
-          "downloadURL": "https://www.ppsspp.org/downloads/PPSSPP.ipa",
-          "size": 32100000
+          "version": "1.0",
+          "date": "2026-07-23",
+          "localizedDescription": "Initial release of LinkRelay. Supports URL scheme relaying and integration with LiveContainer.",
+          "downloadURL": "https://YOUR_GITHUB_USERNAME.github.io/aoirepo/LinkRelay-latest.ipa",
+          "size": 161031
         }
       ]
     }
   ],
   "news": [
     {
-      "title": "Welcome to Aoi's Repo!",
-      "identifier": "welcome-news",
-      "caption": "Enjoy a clean, fast repository experience for LiveContainer.",
+      "title": "LinkRelay Repository Online",
+      "identifier": "linkrelay-online",
+      "caption": "Get the latest official releases of LinkRelay directly from this source.",
       "date": "2026-07-23",
-      "tintColor": "#9d4edd",
+      "tintColor": "#4f46e5",
       "notify": true
     }
   ]
